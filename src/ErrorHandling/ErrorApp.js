@@ -2,7 +2,7 @@ import React from 'react';
 import ErrorText from './ErrorText';
 import ErrorBoundary from './ErrorBoundary';
 
-class App extends React.Component {
+class ErrorApp extends React.Component {
     render() {
         return (
             <div className='text-center text-success mt-5'>
@@ -19,4 +19,4 @@ class App extends React.Component {
         )
     }
 }
-export default App;
+export default ErrorApp;

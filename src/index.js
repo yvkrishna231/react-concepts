@@ -5,8 +5,8 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import "bootstrap/dist/css/bootstrap.min.css";
 // import HocApp from './HigherOrderComponent/HocApp';
-import ContextApp from './App';
+import RoutingApp from './Routing/RoutingApp'
 
-ReactDOM.render(<ContextApp />, document.getElementById('root'));
+ReactDOM.render(<RoutingApp />, document.getElementById('root'));
 
 serviceWorker.unregister();
