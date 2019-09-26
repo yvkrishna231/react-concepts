@@ -12,9 +12,9 @@ class ErrorApp extends React.Component {
                 <ErrorBoundary>
                     <ErrorText heroname='batman' />
                 </ErrorBoundary>
-                <ErrorBoundary>
+                {/* <ErrorBoundary>
                     <ErrorText heroname='joker' />
-                </ErrorBoundary>
+                </ErrorBoundary> */}
             </div>
         )
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
+import '../App.css'
 export default class NavItems extends React.Component {
     render() {
         return (
@@ -21,7 +21,7 @@ export default class NavItems extends React.Component {
                                 activeClassName='highlight'
                                 to='/error'
                                 className='nav-link'>
-                                App
+                                ErrorApp
                              </NavLink>
                         </li>
                         <li className="nav-item">
@@ -30,6 +30,14 @@ export default class NavItems extends React.Component {
                                 to='/hoc'
                                 className='nav-link'>
                                 HocApp
+                             </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink
+                                activeClassName='highlight'
+                                to='/parent'
+                                className='nav-link'>
+                                validations
                              </NavLink>
                         </li>
                     </ul>
